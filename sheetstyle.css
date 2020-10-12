@@ -1,3 +1,8 @@
+body{
+    width: 1355px;
+    margin:auto;
+    font-family:"raleway", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .icone{
     width: 10px;
     height: 10px;
@@ -15,4 +20,154 @@ width: 240px;
 border-radius: 5px 5px 0px 0px;
 }
 
-
+/*police*/
+@font-face {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Regular'), url("police/'Raleway-Regular.woff") format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway'), url("police/'Raleway-Regular.woff") format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Italic'), url('police/Raleway-Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Thin'), url('police/Raleway-Thin.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Thin Italic'), url('police/Raleway-ThinItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway ExtraLight'), url('police/Raleway-ExtraLight.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway ExtraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway ExtraLight Italic'), url('police/Raleway-ExtraLightItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Light'), url('police/Raleway-Light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Light Italic'), url('police/Raleway-LightItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Medium'), url('police/Raleway-Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Medium Italic'), url('police/Raleway-MediumItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway SemiBold'), url('police/Raleway-SemiBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway SemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway SemiBold Italic'), url('police/Raleway-SemiBoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Bold'), url('police/Raleway-Bold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Bold Italic'), url('police/Raleway-BoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway ExtraBold'), url('police/Raleway-ExtraBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway ExtraBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway ExtraBold Italic'), url('police/Raleway-ExtraBoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Black'), url('police/Raleway-Black.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Raleway Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Black Italic'), url('police/Raleway-BlackItalic.woff') format('woff');
+    }
