@@ -1,17 +1,54 @@
 body{
-    width: 1355px;
-    margin:auto;
+    width: 1360px;
+    margin: auto;
     font-family:"raleway", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/*header start*/
+header{
+    width:100%;
+    height: 17%;
+}
+
+#topheader{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
+}
+
+.logo{
+    width: 100px;
+    height: 35px;
+    margin-left:0px ;
+
+}
+
+#toprightheader{
+display: flex;
+flex-direction: row;
+margin-right: 5%;
+}
+
+.menu{
+   list-style-type:none;
+    padding-left:5%;
+}
+
+#topheader a{
+    color: #0065fc;
+    text-decoration: none;
+}
+
+
+
+
+
+/*header end*/
 .icone{
     width: 10px;
     height: 10px;
-}
-
-.test{
-width: 240px;
-border: 5px solid black;
-border-radius: 10px;
 }
 
 img {
