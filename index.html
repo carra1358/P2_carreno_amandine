@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="sheetstyle.css"/>
         <title>Reservia</title>
     </head>
@@ -12,23 +12,22 @@
 <!--début haut de page-->
         <header>
 
-            <div id="topheader">
-                <p> <img class="logo" src="images/logo/Reservia@3x.png" alt="logo Reservia"/> </p>
-
-                <ul id="toprightheader"> 
-                    <li class="menu"><a href="#heberge">Hébergements</a></li>
-                    <li class="menu"><a id="menugris" href="#activ">Activités</a></li>
-                    <li class="menu"><a href="#">S'inscrire</a></li>
+            <div class="box_1">
+                <p> <img src="images/logo/Reservia.svg" alt="logo Reservia"/> </p>
+                <ul> 
+                    <li><a class="lien1" href="#heberge">Hébergements</a></li>
+                    <li class="menu"><a class="lien2" href="#activ">Activités</a></li>
+                    <li class="menu"><a class="lien3" href="#">S'inscrire</a></li>
                 </ul>
             </div>
             <div>
-                <h1 class="h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <h6>En plein centre ville ou pleine nature</h6>
                 
                     <form method="get" action="index.html">
                         <p>
                             <label for="rechercher">
-                            <img class="icone" src="images/icone/map.svg" alt="pin point"/></label>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <input type="search" name="rechercher" id="rechercher" value="Marseille,France"/>
                         
                             <button type="submit">Rechercher</button>
