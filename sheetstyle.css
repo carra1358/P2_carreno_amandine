@@ -8,24 +8,40 @@ body{
    margin-right: 5%;
 }
 /*header start*/
+
 .box_1{
     display: flex;
-    margin-top: -5%;  
+    align-items: flex-start;
+    
 }
 
 .box_1 > * {
     flex: 1 1 auto;
 }
+
+head p {
+white-space: nowrap;    
+}
+
+.logo{
+    width: 7em;
+    height: 3em;
+    
+    
+    
+}
 .menu{
+   
     margin-left: 10%;
 }
 
 header ul {
-  
+   height: 3em;
    display:flex;
    flex-direction: row;
    align-items: center;
    justify-content: flex-end;
+   
    
 }
 
@@ -34,8 +50,8 @@ header ul {
     text-decoration: none;
     color: black ;
     font-family: "raleway Extralight";
-    font-size: 0.9em;
-    
+    font-size: 0.8em;
+   
 
 }
 
@@ -43,7 +59,8 @@ header ul {
     text-decoration: none;
     color: black ;
     font-family: "raleway Extralight";
-    font-size: 0.9em;
+    font-size: 0.8em;
+  
 
 }
 
@@ -52,18 +69,54 @@ header ul {
     text-decoration: none;
     color:#0065FC ;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8em;
 
 }
+/*ajouter survol!!!*/
 
-ul a:hover{
 
-    color:#0065FC ;
-    font-weight: bold;
-    font-size: 0.9em;
+.head_titre{
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    
+}
+.head_soustitre{
+    font-family: "Raleway Light";
+    font-size: 0.8em ;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 
+.map{
+    display:inline;
+    font-size: 0.9em;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 0.95em;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+#rechercher{
+    display:inline;
+    font-size: 0.9em;
+    border: 2px solid #f2f2f2;
+    padding: 0.9em;
+    width: auto;
+    
+}
+
+.bouton{
+    display: inline;
+    color: white;
+    font-size: 0.9em;
+    background:#0065FC;
+    padding: 0.9em;
+    border-radius: 0 10px 10px 0;
+    border: 2px solid #0065FC ;
+
+}
 
 
 

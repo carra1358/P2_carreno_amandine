@@ -13,24 +13,21 @@
         <header>
 
             <div class="box_1">
-                <p> <img src="images/logo/Reservia.svg" alt="logo Reservia"/> </p>
+                <p><img class="logo" src="images/logo/Reservia.svg" alt="logo Reservia"/></p> 
                 <ul> 
                     <li><a class="lien1" href="#heberge">Hébergements</a></li>
                     <li class="menu"><a class="lien2" href="#activ">Activités</a></li>
                     <li class="menu"><a class="lien3" href="#">S'inscrire</a></li>
                 </ul>
             </div>
-            <div>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <h6>En plein centre ville ou pleine nature</h6>
+            <div class="box_2">
+                <h1 class="head_titre">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h6 class="head_soustitre">En plein centre ville ou pleine nature</h6>
                 
-                    <form method="get" action="index.html">
+                    <form class="barre_recherche" method="get" action="index.html">
                         <p>
                             <label for="rechercher">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <input type="search" name="rechercher" id="rechercher" value="Marseille,France"/>
-                        
-                            <button type="submit">Rechercher</button>
+                            <span class="map"><i class="fa fa-map-marker" ></i></span><input type="search" name="rechercher" id="rechercher" value="Marseille,France"/><button class="bouton" type="submit">Rechercher</button>
                         </p>
                         
                     </form>
