@@ -240,6 +240,40 @@ header ul {
     border-radius: 50% ; 
  }
 
+ .box_4{
+    display: flex;
+    width: 100%;
+    
+ }
+.fa-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 1em;
+    color: #0065FC;
+    
+    
+}
+
+.info {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    
+}
+ 
+.texte_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    font-family: "Raleway Light";
+    margin-left: 10px;
+
+ }
+
 
 
 
