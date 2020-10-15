@@ -117,6 +117,129 @@ header ul {
     border: 2px solid #0065FC ;
 
 }
+/*filtres*/
+
+.box_3{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    
+    
+}
+.box_1 > * {
+    flex: 1 1 auto;
+}
+
+.box_3 h3{
+    font-size: 1em;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.fa-money{
+    position: relative;
+    z-index: 2;
+    left: 19px;
+    background-color: #deebff;
+    color: #0065FC;
+    padding: 0.99em;
+    font-size: 16px;
+    border-radius: 50% ;
+    
+}
+.bouton_1{
+    z-index: 1;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-size: 0.95em;
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    padding:0.85em ;
+    padding-left: 1.5em;
+    border: 2.5px solid #f2f2f2;
+    text-align: right;
+   
+
+}
+
+
+
+.bouton_2{
+    z-index: 1;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-size: 0.95em;
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    padding:0.85em ;
+    padding-left: 1.5em;
+    border: 2.5px solid #f2f2f2;
+    text-align: right;
+   
+}
+
+.fa-child{
+    position: relative;
+    z-index: 2;
+    left: 19px;
+    background-color: #deebff;
+    color: #0065FC;
+    padding: 0.99em;
+    font-size: 16px;
+    border-radius: 50% ;
+
+}
+
+.bouton_3{
+    z-index: 1;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-size: 0.95em;
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    padding:0.85em ;
+    padding-left: 1.5em;
+    border: 2.5px solid #f2f2f2;
+    text-align: right;
+}
+
+.fa-heart{
+    position: relative;
+    z-index: 2;
+    left: 19px;
+    background-color: #deebff;
+    color: #0065FC;
+    padding: 0.99em;
+    font-size: 16px;
+    border-radius: 50% ;
+}
+ .bouton_4{
+    z-index: 1;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-size: 0.95em;
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    padding:0.85em ;
+    padding-left: 1.5em;
+    border: 2.5px solid #f2f2f2;
+    text-align: right;  
+ }
+
+ .fa-paw{
+    position: relative;
+    z-index: 2;
+    left: 19px;
+    background-color: #deebff;
+    color: #0065FC;
+    padding: 0.99em;
+    font-size: 16px;
+    border-radius: 50% ; 
+ }
+
 
 
 
@@ -243,6 +366,7 @@ border-radius: 5px 5px 0px 0px;
     font-weight: normal;
     src: local('Raleway Bold'), url('police/Raleway-Bold.woff') format('woff');
     }
+    
     
     
     @font-face {
