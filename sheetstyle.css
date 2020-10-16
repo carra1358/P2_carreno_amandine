@@ -286,8 +286,9 @@ header ul {
 main h2{
     width: 100%;
     font-size: 1.3em;
-    margin: 5%;
-    white-space: nowrap;
+    margin-bottom: 0.9em;
+    margin-top: 0.9em;
+    margin-left: 2%;
 }
 
 main {
@@ -298,13 +299,15 @@ main {
     flex-direction: row;
     background-color: #f2f2f2;
     border-radius: 1%;
+    margin-right: 5%;
 }
 
 .card{
     background-color: white;
     padding: 1%;
     border-radius: 4%;
-    margin: 5%;
+    margin: 2%;
+  
 }
 
 .img_main{
@@ -351,6 +354,12 @@ main p{
     font-size: 1em;
 }
 
+.end_main{
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    margin:5%;
+}
 /*corps start*/
 /*main start*/
 /*main end*/
