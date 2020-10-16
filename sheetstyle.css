@@ -72,6 +72,7 @@ header ul {
     font-size: 0.8em;
 
 }
+
 /*ajouter survol!!!*/
 
 
@@ -274,10 +275,89 @@ header ul {
 
  }
 
-
-
-
 /*header end*/
+.hebergement{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main h2{
+    width: 100%;
+    font-size: 1.3em;
+    margin: 5%;
+    white-space: nowrap;
+}
+
+main {
+    height: 50%;
+    width:75% ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    border-radius: 1%;
+}
+
+.card{
+    background-color: white;
+    padding: 1%;
+    border-radius: 4%;
+    margin: 5%;
+}
+
+.img_main{
+    width: 250px;
+    height: 125px;
+}
+
+.titre_card{
+    font-size: 0.85em;
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+    margin-left: 0.8em;
+}
+main p{
+    margin-bottom: 0.2em;
+    margin-top: 0.02em;
+    margin-left: 0.8em;
+}
+.soustitre_card{
+    font-size: 0.85em;
+    font-family: "Raleway ExtraLight";
+}
+
+.prix_card{
+    font-size: 0.85em;
+    font-weight: bold; 
+}
+
+.star_1{
+    margin-left: 0.8em;
+    color: #0065FC;
+}
+
+.star_b{
+    color: #0065FC; 
+}
+
+.star_g{
+    color: #f2f2f2;
+}
+
+.fa-star{
+    
+    font-size: 1em;
+}
+
+/*corps start*/
+/*main start*/
+/*main end*/
+/*nav start*/
+/*nav end*/
+
+/*corps end*/
 .icone{
     width: 10px;
     height: 10px;
