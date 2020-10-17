@@ -276,13 +276,16 @@ header ul {
  }
 
 /*header end*/
+
+
+/*corps start*/
 .hebergement{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
+/*main start*/
 main h2{
     width: 100%;
     font-size: 1.3em;
@@ -293,13 +296,13 @@ main h2{
 
 main {
     height: 50%;
-    width:75% ;
+    width:65% ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: #f2f2f2;
-    border-radius: 1%;
-    margin-right: 5%;
+    border-radius: 3%;
+    margin-right: 2%;
 }
 
 .card{
@@ -311,8 +314,8 @@ main {
 }
 
 .img_main{
-    width: 250px;
-    height: 125px;
+    width: 225px;
+    height: 112px;
 }
 
 .titre_card{
@@ -360,11 +363,99 @@ main p{
     font-weight: bold;
     margin:5%;
 }
-/*corps start*/
-/*main start*/
 /*main end*/
-/*nav start*/
-/*nav end*/
+
+/*aside start*/
+aside{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    
+
+}
+
+.card_aside{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1%;
+    border-radius: 4%;
+    margin: 3%;
+}
+
+.card_aside > * {
+    flex: 1 1 auto;
+}
+
+aside h2{
+    font-size: 1.3em;
+    margin-bottom: 0.9em;
+    
+}
+
+
+.fa-line-chart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+    
+
+.aside_titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside p{
+    margin-bottom: 2.2em;
+    margin-top: 0.2em;
+   
+}
+
+.aside_titre > * {
+    flex: 1 1 auto;
+}
+
+.img_aside{
+    width: 150px;
+    height: 130px;
+}
+
+.descript_card_aside{
+    margin-left: 0.8em;
+    margin-top: 0.02em;
+   
+   
+}
+
+.titre_card_aside{
+    font-size: 0.85em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+
+
+}
+
+.soustitre_card_aside{
+    font-size: 0.85em;
+    font-family: "Raleway ExtraLight";
+
+}
+
+
+
+
+/*aside end*/
 
 /*corps end*/
 .icone{
@@ -373,8 +464,8 @@ main p{
 }
 
 img {
-height: 200px;
-width: 240px;
+height: 112px;
+width: 225px;
 border-radius: 5px 5px 0px 0px;
 }
 
