@@ -34,10 +34,7 @@ white-space: nowrap;
 
 .logo{
     width: 7em;
-    height: 3em;
-    
-    
-    
+    height: 3em;   
 }
 .menu{
    
@@ -60,6 +57,8 @@ header ul {
     color: black ;
     font-family: "raleway Extralight";
     font-size: 0.8em;
+    border-top: 3px solid transparent;
+    
    
 
 }
@@ -75,20 +74,11 @@ header ul {
 
 /*modifier survol!!!*/
 .barre a:hover{
+    border-top: 3px solid #0065FC;
     color: #0065FC;
-    font-weight: 900;
+    padding-top: 40px;
 }
 
-.barre a:hover:before{
-    content:''; /* This Is Required */
-    top:0px;
-    bottom: 400px;
-    left:0%;
-    display: block ;
-    background: #0065FC; /* Change As Your Needs */
-    width: 100%;
-    height:2px;
-}
 
 .lien3{
 
@@ -147,13 +137,10 @@ header ul {
 /*filtres*/
 
 .box_3{
-    width: 1200px;
     display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    
-    
+    flex-direction: row; 
 }
+
 .box_1 > * {
     flex: 1 1 auto;
 }
@@ -342,6 +329,7 @@ header ul {
 .img_main{
     width: 225px;
     height: 112px;
+    object-fit: cover;
 }
 
 .titre_card{
@@ -455,6 +443,7 @@ aside p{
 .img_aside{
     width: 120px;
     height: 130px;
+    object-fit: cover;
 }
 
 .descript_card_aside{
@@ -485,7 +474,7 @@ aside p{
 #activité{
     margin-top: 2em;
     margin-bottom: 2em;
-   
+    height: 30%;
 
 }
 
@@ -498,6 +487,7 @@ aside p{
 
 #picture_zone_activ{
     display: flex;
+    
 }
 
 #activité p{
@@ -510,10 +500,11 @@ aside p{
 
 
 .card_activ{
+    
     background-color: white;
     border-radius: 4%;
     box-shadow: 1px 1px 5px rgb(0,0,0) ; 
-    margin: 4%;
+   
 }
 
 #group_1_activ{
@@ -539,15 +530,17 @@ aside p{
 }
 
 .img_L_activ{
+    object-fit: cover;
     width: 100%; 
-    height: 250px;
+    height: 10em;
     border-radius: 4% 4%  0 0 ; 
     
 }
 
 .img_S_activ{
+    object-fit: cover;
     width: 100%; 
-    height: 110px;
+    height: 5em;
     border-radius: 4% 4%  0 0 ;
     margin-bottom: 1em;
 }
