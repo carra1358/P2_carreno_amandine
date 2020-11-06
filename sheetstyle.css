@@ -588,11 +588,23 @@ footer li{
   and (max-device-width: 667px) 
   and (orientation: portrait) { 
 
+    body{
+        width: 100%;
 
-    header{
-        margin-left: 1.2em;
-        margin-right: 1.2em;
+    }
 
+    header {
+        width: 100%;
+        margin-left: 1em ;
+        margin-right: 1em;
+       
+    }
+    
+    section{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    
     }
     
     #head_bloc_1 {
@@ -635,7 +647,7 @@ footer li{
     
     #head_bloc_1 li a{
         display: block;
-        width: 500px;
+        width: 530px;
         margin: 0;
         font-size: 3em;
         padding-bottom: 2em;
@@ -719,8 +731,6 @@ footer li{
     #hebergement{
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
-        
     }
 
     #main{
@@ -736,21 +746,26 @@ footer li{
     .aside{
         width: 100%;
         margin-bottom: 50px;
-        border-radius: unset;
+        border-radius: 0;
+        background-repeat: repeat-x;
     }
 
+    .card_aside {
+        border: 10px solid white;
+    }
     .aside_titre{
         font-size: 2.5em;
     }
 
     .picture_zone_aside {
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
    
  .img_aside {
-     width: 20em;
+     width: 22em;
      height: 22em;
  }
     
@@ -766,6 +781,15 @@ footer li{
         font-family: "Raleway ExtraLight";
     
     }
+
+    .space_star{
+        margin-bottom: 9em;
+    }
+
+    .descript_card_aside{
+        margin-left: 1.5em;
+    }
+    
 
     .prix_card{
         font-size: 2em;
@@ -796,8 +820,7 @@ footer li{
     }
 
     .img_main{
-        width: 100%;
-        height: 20em;
+        height: 18em;
         object-fit: cover;
         border-radius: 4% 4% 0 0;
     }
@@ -830,6 +853,100 @@ footer li{
         box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678)
 
     }
+
+    #picture_zone_activ {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #activité h2 {
+        font-size: 3.5em;
+        margin-left: 1em;
+    }
+
+    .column_activ_S{
+        width: 100%;
+        align-content: center;
+    }
+    
+    .column_activ_L{
+        width: 100%;
+        align-content: center;
+    }
+    
+    #activité p{
+        padding-left: 10px;
+        font-size: 0.85em;
+        font-weight: bold;
+    }
+    
+    
+    .card_activ{
+        width: 85%;
+        margin-bottom: 80px;
+        margin-left: 70px;
+        padding-bottom: 20px;
+        border-radius: 4%;
+        box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678)
+      
+    }
+    
+    .card_activ_S{
+        width: 85%;
+        margin-bottom: 80px;
+        margin-left: 70px;
+        padding-bottom: 20px;
+        border-radius: 4%;
+        box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678)
+    }
+
+    #activité img {
+        height: 22em;
+    }
+
+    #activité p {
+        font-size: 2.5em;
+    }
+
+    
+    footer{
+        width: 100%;
+        background-color: #f2f2f2;
+        }
+    
+    #pied_page {
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+     }
+    
+     #pied_page :first-child {
+        margin-top: 50px;
+        padding-left: 0;
+     } 
+    
+    
+    .titre_footer{
+        font-family: 'Raleway SemiBold';
+    }
+    
+    footer ul {
+        margin-right:0;
+        margin-left: 75px;
+        margin-bottom: 75px;
+    }
+    
+    
+    footer li{
+        font-family:'Raleway light';
+        font-size: 1.5em;
+        padding: 1em;
+       
+    }
+
+     
+
 
    
 
