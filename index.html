@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="sheetstyle.css"/>
         <title>Reservia</title>
     </head>
@@ -13,13 +13,14 @@
 <header>
 
     <div id="head_bloc_1">
-        <p><img src="images/logo/Reservia.svg" alt="logo Reservia"/></p> 
-
-        <ul class="menu"> 
-            <li><a class="lien_black" href="#heberge">Hébergements</a></li>
-            <li><a class="lien_black" href="#activ">Activités</a></li>
-            <li><a class="lien_bleu" href="#">S'inscrire</a></li>
+        <p class="logo_petite"><img src="images/logo/Reservia.svg" alt="logo Reservia"/></p> 
+       
+        <ul   class="menu" > 
+            <li><a class="lien_black" href="#hebergement">Hébergements</a></li>
+            <li><a class="lien_black" href="#activité">Activités</a></li>
         </ul>
+        <p class="lien_b_petite"><a class="lien_bleu" href="#">S'inscrire</a></p>
+        
     </div>
 
     <div id="head_bloc_2">
@@ -28,7 +29,7 @@
         <h6 class="head_soustitre">En plein centre ville ou pleine nature</h6>
         
             <form class="barre_recherche" method="get" action="index.html">
-                    <span class="map"><i class="fa fa-map-marker" ></i></span><input type="search" name="rechercher" id="rechercher" value="Marseille,France"/><button class="bouton" type="submit">Rechercher</button>
+                    <span class="map"><i class="fa fa-map-marker" ></i></span><input type="search" name="rechercher" id="rechercher" value="Marseille,France"/><button class="bouton" type="submit"><span class="search_petite">Rechercher</span><i class="fa fa-search"></i> </button>
             </form>
         
     </div>
@@ -140,10 +141,10 @@
             
 <!--fin block 1 image-->             
             <p class="end_main">Afficher plus</p>
-        </div>
+          </div>
    
 <!--block 2 image-->
-    <aside>
+    <div class="aside">
         <div class="aside_titre">
 
                 <h2>Les plus populaires </h2>
@@ -158,7 +159,7 @@
                     <a href=""><img class="img_aside" src="images/hebergement_s/hotel_soleildumatin.jpg" alt=""/></a>
                     <div class="descript_card_aside">
                     <h5 class="titre_card_aside">Hôtel Le soleil du matin</h5>
-                    <p><span class="soustitre_card_aside">Nuit à partir de</span> <span class="prix_card">128€</span></p>
+                    <p class="space_star"><span class="soustitre_card_aside">Nuit à partir de</span> <span class="prix_card">128€</span></p>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
@@ -172,7 +173,7 @@
                     <a href=""><img class="img_aside" src="images/hebergement_s/chbr_coeurdeleau.jpg" alt=""/></a>
                     <div class="descript_card_aside">
                     <h5 class="titre_card_aside">Au coeur de l'eau <br/>Chambres d'hôtes</h5>
-                    <p><span class="soustitre_card_aside">Nuit à Partir de</span> <span class="prix_card">71€</span></p>
+                    <p class="space_star"><span class="soustitre_card_aside">Nuit à Partir de</span> <span class="prix_card">71€</span></p>
                         <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
@@ -186,7 +187,7 @@
                     <a href=""><img class="img_aside" src="images/hebergement_s/hotel_toutbleublanc.jpg" alt=""/></a>
                     <div class="descript_card_aside">
                     <h5 class="titre_card_aside">Hôtel Tout bleu et<br/>Blanc</h5>
-                    <p><span class="soustitre_card_aside">Nuit à Partir de</span> <span class="prix_card">68€</span></p>
+                    <p class="space_star"><span class="soustitre_card_aside">Nuit à Partir de</span> <span class="prix_card">68€</span></p>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
                   <span class="star_b"><i class="fa fa-star" aria-hidden="true"></i></span>
@@ -198,7 +199,7 @@
                
         </div>
 
-     </aside>
+    </div>
 
 </section>     
 <!--fin block 2 image-->
@@ -212,7 +213,7 @@
            
         <div id="picture_zone_activ">  
 
-                <div>
+                <div class="column_activ_L">
                      <div class="card_activ">
                          <a href=""><img class="img_L_activ" src="images/activites_s/vieuxport.jpg" alt=""/></a>
                          <p>Vieux Port</p>
@@ -232,7 +233,7 @@
                      </div>
                 </div>
                 
-                <div>
+                <div class="column_activ_L">
                     <div class="card_activ">
                       <a href=""><img class="img_L_activ" src="images/activites_s/parccalanques.jpg" alt=""/></a>
                       <p>Parc National des calanques</p>
