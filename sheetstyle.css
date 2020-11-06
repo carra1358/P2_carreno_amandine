@@ -586,7 +586,7 @@ footer li{
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (orientation: portrait) { 
+   { 
 
     body{
         width: 100%;
@@ -945,12 +945,101 @@ footer li{
        
     }
 
-     
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+ {
+    #hebergement {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
 
 
-   
+    #main {
+        background-color: white;
+        border-radius: 0;
+        width: 100%;
+    }
 
+    .card {
+        margin-bottom: 20px;
+        border-radius: 4%;
+        border: 10px solid white;
+        box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678)
 
+    }
+
+    
+    .aside{
+        width: 100%;
+        background-color: #f2f2f2;
+        border-radius: 0;
+
+    }
+
+    .picture_zone_aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    
+    .aside_titre{
+        display: flex;
+        justify-content: flex-start;
+        height: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .aside_titre h2 {
+        margin-right: 30px;
+    }
+    
+    .card_aside{
+        margin: 1em;
+    }
+    
+    
+    .img_aside{
+        width: 8em;
+        height: 9em;
+        object-fit: cover;
+        border-radius: 4% 0 0 4%;
+    }
+  
+    .space_star{
+        margin-bottom: 3.5em;
+    }
+
+#activité{
+    width: 96%;
+    margin-top: 1%;
+}
+
+#activité h2{
+    font-size: 1em;
+}
+
+#activité p{
+    font-size: 1em;
+}
+
+.img_L_activ{
+    width: 100%;
+    height: 18em; 
+}
+
+.img_S_activ{
+    width: 100%;
+    height: 6em;
+}
+ 
+    
 
 }
 
