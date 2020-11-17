@@ -117,14 +117,12 @@ section{
 
 
 #head_bloc_1 a{
-
-    border-top: 2px solid transparent;
+    border-top: 3px solid transparent;
     padding-top: 30px;
 }
 
 
 #head_bloc_1 a:hover{
-
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
@@ -152,8 +150,10 @@ section{
     font-size: 0.9em;
     background-color: #f2f2f2;
     text-align: center;
-    border: 2px solid #f2f2f2 ;
-    padding: 0.8em;
+    padding-top: 0.85em;
+    padding-bottom: 0.95em;
+    padding-left: 0.85em;
+    padding-right: 0.85em ;
     border-radius: 10px 0 0 10px;
     
 }
@@ -172,9 +172,9 @@ section{
     color: white;
     font-size: 0.9em;
     background-color:#0065FC;
-    padding: 0.8em;
+    padding: 0.93em;
     border-radius: 0 10px 10px 0;
-    border-color: #0065FC;
+    border: none;
 
 }
 
@@ -199,13 +199,14 @@ section{
     margin-right: 30px;  
 }
 
-.fa-stack {
+.fa-2x {
     vertical-align: baseline;
 }
 
 .fa-circle {
     color: #deebff;
     font-size: 3.5em;
+  
 }
 
 
@@ -214,9 +215,8 @@ section{
     padding:0.5em ;
     font-size: 1.1em;
     text-align: center;
-  
-  
 }
+
 .bouton_1{
     text-transform: capitalize;
     font-family:'Raleway Bold' ;
@@ -246,12 +246,9 @@ section{
 
 .fa-heart{
     color: #0065FC;
-    padding:0.46em ;
-    font-size: 1.3em;
+    padding:0.5em ;
+    font-size: 1.1em;
     text-align: center;
-
-    
-
 }
 
  .fa-paw{
@@ -325,7 +322,7 @@ justify-content: space-between;
 
 .card{
     width:25%;
-    background-color: white;
+    background: #ffff;
     padding: 0.5em;
     border-radius: 4%;
   
@@ -394,8 +391,6 @@ justify-content: space-between;
 }
 
 
-
-
 .picture_zone_aside{
     display: flex;
     flex-direction: column;
@@ -422,7 +417,7 @@ justify-content: space-between;
     width: 80%;
     height: 30%;
     display:flex;
-    background-color: white;
+    background:#ffff;
     padding: 0.5em;
     border-radius: 4%;
     margin-top:1em ;
@@ -506,6 +501,7 @@ justify-content: space-between;
 
 .card_activ{
     width: 80%;
+    height: 100%;
     background-color: white;
     border-radius: 4%;
     box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678) ; 
@@ -631,7 +627,7 @@ and (max-width:1112px) {
     .picture_zone_aside {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
     }
   
@@ -651,14 +647,15 @@ and (max-width:1112px) {
     }
     
     .card_aside{
-        height: 100%;
+        height: 8rem;
         margin: 0.5em;
+        font-size: 0.85em;
     }
     
     
     .img_aside{
         width: 110px;
-        height: 10rem;
+        height: 100%;
     }
   
     .fa-star {
@@ -726,7 +723,7 @@ and (max-width: 667px){
 }
 
 #head_bloc_1 a:hover {
-    border-top: transparent;
+    border-top: 3px solid transparent;
 }
 
 
@@ -748,7 +745,6 @@ and (max-width: 667px){
     display: block;
     position: absolute;
     right: 0px;
-    margin: 0;
     text-align: center;
     width: 50%;
     font-size: 1.5em ;
@@ -763,17 +759,19 @@ and (max-width: 667px){
 }
 
   .head_titre{
-      margin-top: 18%;
+      margin-top: 20%;
       font-size: 1.4em;
      
   }
 
    .head_soustitre {
-      font-size: 1em;
+      font-size: 1.1em;
   }
 
 .map{
-    padding: 0.95em;
+    padding: 1em;
+    padding-bottom: 1.08em;
+    padding-top: 1.05em;
 }
 
 #head_bloc_2 > form {
@@ -848,6 +846,7 @@ and (max-width: 667px){
   }
 
   .card_aside {
+      height: 9em;
       border: 10px solid white;
   }
   .aside_titre{
@@ -862,12 +861,12 @@ and (max-width: 667px){
 
  
 .img_aside {
-   width: 10em;
-   height: 10em;
+   width: 7em;
+   
 }
   
   .titre_card_aside{
-      font-size: 1em;
+      font-size: 0.9em;
       margin-bottom: 0.2em;
       margin-top: 0.2em;
   }
@@ -880,35 +879,13 @@ and (max-width: 667px){
   }
 
   .space_star{
-      margin-bottom: 4em;
+      margin-bottom: 4.3em;
   }
 
   .descript_card_aside{
       margin-left: 1.5em;
   }
   
-
-  .prix_card{
-      font-size: 1em;
-      font-weight: bold; 
-  }
-  
-  .star_1{
-      margin-left: 1em;
-      color: #0065FC;
-  }
-  
-  .star_b{
-      color: #0065FC; 
-  }
-  
-  .star_g{
-      color: #f2f2f2;
-  }
-  
-  .fa-star{
-      font-size:1em;
-  }
 
   #main h2 {
       font-size: 1.3em;
@@ -937,7 +914,6 @@ and (max-width: 667px){
   
   .card {
       width: 80%;
-      margin-bottom: 80px;
       padding-bottom: 20px;
       border-radius: 4%;
       border: 5px solid white;
@@ -978,7 +954,7 @@ and (max-width: 667px){
   
   .card_activ{
       width: 85%;
-      margin-bottom: 80px;
+      margin-bottom: 20px;
       padding-bottom: 20px;
       border-radius: 4%;
       box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678)
@@ -987,7 +963,7 @@ and (max-width: 667px){
   
   .card_activ_S{
       width: 85%;
-      margin-bottom: 80px;
+      margin-bottom: 20px;
       padding-bottom: 20px;
       border-radius: 4%;
       box-shadow: 1px 1px 3px rgba(17, 17, 17, 0.678)
